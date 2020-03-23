@@ -23,6 +23,7 @@ export default function CheckBoxList({ options, isCheckedAll, onCheck }) {
       <CheckBox
         name="select-all"
         value="ALL"
+        className="testfsfsd"
         tick={isCheckedAll}
         onCheck={e => onCheck("all", e.target.checked)}
       />

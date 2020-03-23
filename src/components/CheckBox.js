@@ -2,7 +2,7 @@ import React from "react";
 import ListOptionSelects from "./ListOptionSelects";
 export default function CheckBox({ name, value, tick, onCheck }) {
   const test = () => {
-    if (tick) {
+    if (tick && name === "city") {
       return <ListOptionSelects />;
     }
   };
